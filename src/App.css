@@ -1,0 +1,103 @@
+
+.sidebar {
+   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+   height: 100vh;
+}
+
+.boothead {
+  text-align: left;
+}
+
+.header {
+  
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  margin-top: 4px;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background-color: white;
+  
+  
+}
+
+.Dashboard {
+  padding: 15px;
+  
+}
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+
+  width: 100dvh;
+  height: 100%;
+
+
+  background-color: white;
+
+  transform: translateX(-100%);
+  transition: transform 0.3s ease;
+
+  z-index: 1100;
+
+  overflow-y: auto;
+  overflow-x: hidden;
+
+  box-shadow: 2px 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.sidebar.show {
+  transform: translateX(0);
+  
+}
+
+.ExpanceCard {
+  
+    height: 140px;
+    width: 330px;
+    margin: 20px 15px;
+    border: 2px solid rgb(203, 196, 196);
+    border-radius: 15px;
+    padding: 15px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    background-color: rgb(250, 250, 248);
+}
+
+
+.transectioncard {
+ 
+  
+  flex: 1;
+  align-items: center;
+  min-width: 190px;
+  height: 350px;
+  padding: 20px;
+  margin: 20px 20px;
+  border-radius: 15px;
+
+  border: 2px solid rgb(203, 196, 196);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+   background-color: rgb(250, 250, 248);
+}
+.secondtransectioncard {
+  flex: 1;
+  min-width: 220px;
+  height: 350px;
+
+  margin: 20px 20px;
+  padding: 20px;
+
+  border: 2px solid rgb(203, 196, 196);
+  border-radius: 15px;
+
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+
+  overflow-y: auto;
+   background-color: rgb(250, 250, 248);
+}
+
+
+
+
+

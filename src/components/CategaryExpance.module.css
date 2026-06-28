@@ -1,0 +1,45 @@
+.transectionItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 0;
+  border-bottom: 1px solid #eee;
+}
+.leftSection {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.transectionItem p {
+  color: gray;
+  margin: 0;
+}
+.title h5 {
+    margin: 0;
+    text-align: left;
+}
+
+
+.transactionItem h5 {
+  margin: 0;
+ 
+}
+
+.transactionItem p {
+  margin: 2px 0;
+  color: gray;
+  font-size: 14px;
+}
+
+.transectionIcon {
+    font-size: 25px;
+ 
+    color: rgb(32, 206, 206);
+}
+.main {
+    float: inline-start;
+}
+.space {
+  margin-left: 8px;
+}

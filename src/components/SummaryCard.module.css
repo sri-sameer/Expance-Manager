@@ -1,0 +1,22 @@
+.summaryheader {
+ display: flex;
+ align-items: center;
+ gap: 5px;
+
+}
+
+.summaryicon {
+     font-size: 50px;
+     margin-right: 50px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 22px;
+  color: rgb(21, 200, 140);
+}
+
+.balance {
+  border: none;
+}
+

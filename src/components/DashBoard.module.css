@@ -1,0 +1,26 @@
+.buttonDash{
+    text-align: right;
+    margin-left: 100%;
+}
+
+.summaryContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.secondCard {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.balance {
+    border: none;
+    font-size: 30px;
+}
+
+
+
+
+
