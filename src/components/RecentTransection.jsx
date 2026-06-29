@@ -45,7 +45,7 @@ const COLORS = [
 ];
 return (
       <div className="transectioncard">
-        <h6>Expenece by category</h6>
+        <h6>Expenese by category</h6>
          <PieChart width={250} height={250} >
             <Pie
                 data={chartData}
