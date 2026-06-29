@@ -40,7 +40,7 @@ const availableBalance = () => {
     <>
   <div className="Dashboard">
   <span className="d-flex"><h3>Dashboard</h3>  <Link to="form" className="ms-auto"><button type="button" className="btn btn-primary ms-auto buttonDash">+ Add Expense</button></Link></span>
-  <h6>Welcome back, Here's your expance overview .</h6>
+  <h6>Welcome back, Here's your expense overview .</h6>
   </div>
 
 <center className={styles.summaryContainer}>

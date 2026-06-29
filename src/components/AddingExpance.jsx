@@ -71,8 +71,8 @@ IdElement.current.value= "";
     <>
    
       <div className={styles.addingexpance}>
-        <h2>Add Expence</h2>
-        <h6>Expences &gt; AddExpance</h6>
+        <h2>Add Expense</h2>
+        <h6>Expenses &gt; AddExpense</h6>
       </div>
       <div className={styles.container}>
         <div className={styles.expancepart}>
@@ -158,7 +158,7 @@ IdElement.current.value= "";
             </label>
             <input
              ref={IdElement}
-              placeholder="No. of expance"
+              placeholder="No. of expense"
               className="form-control form-control-lg form-control border border-normal"
               id="formFileLg"
               type="text"
