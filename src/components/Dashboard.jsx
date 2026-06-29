@@ -39,7 +39,7 @@ const availableBalance = () => {
   return (
     <>
   <div className="Dashboard">
-  <span className="d-flex"><h3>Dashboard</h3>  <Link to="form" className="ms-auto"><button type="button" className="btn btn-primary ms-auto buttonDash">+ Add Expance</button></Link></span>
+  <span className="d-flex"><h3>Dashboard</h3>  <Link to="form" className="ms-auto"><button type="button" className="btn btn-primary ms-auto buttonDash">+ Add Expense</button></Link></span>
   <h6>Welcome back, Here's your expance overview .</h6>
   </div>
 
@@ -53,7 +53,7 @@ const availableBalance = () => {
   />
   <SummaryCard
   icon={<FaMoneyCheck />}
-   tittle={"Total Expance"}
+   tittle={"Total Expense"}
    amount={`₹${totalExpences()}`}
    
    change={"-8.3% from last month"}

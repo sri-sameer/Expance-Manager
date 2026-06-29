@@ -57,7 +57,7 @@ const Sidebar = ({setShowSideBar,showSidebar,blueRay,setBlueRay}) => {
               <use xlinkHref="#home"></use>
               
             </svg>
-            Add Expance
+            Add Expense
           </Link>{" "}
         </li>{" "}
       </ul>{" "}

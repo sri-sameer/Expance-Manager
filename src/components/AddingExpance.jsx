@@ -171,7 +171,7 @@ IdElement.current.value= "";
       <div className={styles.buttonpart}>
         
          <button onClick={handleCancel} className="btn btn-secondary me-2">cancel</button>
-        <button onClick={HandleSubmit} className="btn btn-primary">SaveExpance</button>
+        <button onClick={HandleSubmit} className="btn btn-primary">SaveExpense</button>
        
        
       </div>
