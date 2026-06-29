@@ -32,7 +32,7 @@ const totalExpences =() => {
 
  let rupee =0
 const availableBalance = () => {
-   return Number(balance) - totalExpences();
+   return Number(balance - firstExpence);
 }
 
 
